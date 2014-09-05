@@ -1,0 +1,2 @@
+NativeSDK-podspec
+=================
