@@ -1,9 +1,9 @@
-#How to use Cocoapods to bootstrap your SAP Mobile SDK app, instantly
+#How to use CocoaPods to bootstrap your SAP Mobile SDK app, instantly
 
 Oh snap! This is awesome.  
 
-##Use Cocoapods
-Those of you who know me, know that I'm a big fan of the Cocoapods tool and community, for discovering new open-source components for iOS development, and for library/dependency management.
+##Use CocoaPods
+Those of you who know me, know that I'm a big fan of the CocoaPods tool and community, for discovering new open-source components for iOS development, and for library/dependency management.
 
 I've been pushing for broader adoption in the SAP community, but have been somewhat stiemied, due to the fact that our iOS SDK isn't distributed via github.com, or an endpoint accessible to the command-line tools.  I've been hosting a copy of the SDK on our internal github, and had a blog post queued up describing how to do the same in your environment, with a podspec you could modify to link to your repo.
 
@@ -12,7 +12,7 @@ All that can be thrown out.
 ##Seriously, right now.
 I was trying to work out how to submit a public podspec for my STSOData framework, which depends on the SAP Mobile SDK, and I ran into this [blog by the team at Gaslight](https://teamgaslight.com/blog/using-local-libraries-with-cocoapods).  It didn't solve the problem I was initially looking at, but I came back to it a few days later, and found this:
 
-**You can just copy this `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and cocoapods will read from your local installation.**
+**You can just copy this `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and CocoaPods will read from your local installation.**
 
 Ah.  Yes.
 
