@@ -39,7 +39,7 @@ Ah.  Yes.
 7.  Profit
 
 ##I'll wait..
-Interestingly, when you add a pod using the `:path` prefix, it gets added to the workspace in the **Development Pods** folder in the **Pods** xcodeproj (instead of with pods downloaded remotely in the **Pods** folder).  As you can see in the bottom left of the screengrab, the headers are all correctly linked.  If you scroll down in the **Native SDK** folder, you'll also see all the Mobile SDK libs in the **Frameworks** folder, and the bundles and storyboards in the **Resources** folder.  
+Interestingly, when you add a pod using the `:path` prefix, it gets added to the workspace in the **Development Pods** folder in the **Pods** xcodeproj (instead the **Pods** folder, with the pods downloaded remotely ).  As you can see in the bottom left of the screengrab, the headers are all correctly linked.  If you scroll down in the **Native SDK** folder, you'll also see all the Mobile SDK libs in the **Frameworks** folder, and the bundles and storyboards in the **Resources** folder.  
 
 <img src="https://raw.githubusercontent.com/sstadelman/sstadelman.github.io/master/media/blog-images/Native-SDK-podspec1.png" width=900>
 
