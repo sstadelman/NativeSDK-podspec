@@ -18,7 +18,7 @@ Ah.  Yes.
 
 ##Try it.  Now.
 
-1.  Copy this file, into your Mobile SDK 3.0 SP05 installation directory, in the **/NativeSDK** directory.
+1.  Copy this file into the **/NativeSDK** directory in your Mobile SDK 3.0 SP05 installation.
 2.  Create a new iOS project in xCode
 3.  Navigate to the project directory in Terminal, and run `pod init`
 4.  Copy this into the generated Podfile:
