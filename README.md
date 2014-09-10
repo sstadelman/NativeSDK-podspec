@@ -12,7 +12,7 @@ All that can be thrown out.
 ##Seriously, right now.
 I've been hammering on this problem, as I've been trying to submit a public podspec for my STSOData framework.  I ran into this [blog by the team at Gaslight](https://teamgaslight.com/blog/using-local-libraries-with-cocoapods).  It didn't solve the problem I was initially looking at, but I came back to it, and found this:
 
-**You can just copy this `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, and add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and cocoapods will read from your local installation.**
+**You can just copy this `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and cocoapods will read from your local installation.**
 
 ##Try it.  Now.
 
@@ -38,3 +38,4 @@ I've been hammering on this problem, as I've been trying to submit a public pods
 
 ##I'll wait..
 
+<img src="https://raw.githubusercontent.com/sstadelman/sstadelman.github.io/master/media/blog-images/Native-SDK-podspec1.png" width=900>
