@@ -21,7 +21,7 @@ Ah.  Yes.
 1.  Copy this file into the **/NativeSDK** directory in your Mobile SDK 3.0 SP05 installation.
 2.  Create a new iOS project in xCode
 3.  Navigate to the project directory in Terminal, and run `pod init`
-4.  Copy this into the generated Podfile:
+4.  Copy this text into the generated Podfile:
 
 		platform :ios, "7.0"
 
