@@ -37,5 +37,15 @@ I've been hammering on this problem, as I've been trying to submit a public pods
 7.  Profit
 
 ##I'll wait..
+Interestingly, when you add a pod using the `:path` prefix, it gets added to the workspace in the **Development Pods** folder in the **Pods** xcodeproj.  As you can see in the bottom left of the screengrab, the headers are all correctly linked.  If you scroll down in the **Native SDK** folder, you'll also see all the Mobile SDK libs in the **Frameworks** folder, and the bundles and storyboards in the **Resources** folder.  
 
 <img src="https://raw.githubusercontent.com/sstadelman/sstadelman.github.io/master/media/blog-images/Native-SDK-podspec1.png" width=900>
+
+##For extra credit:
+Add an additional pod to your project!  Check out [CocoaControls.com](https://www.cocoacontrols.com/platforms/ios/controls?cocoapods=t&sort=rating), and pick a pod to try out.  The [JASidePanels](https://www.cocoacontrols.com/controls/jasidepanels) pod has 2750 stars on github, and 580 forks, so it looks like a pretty robust project.  
+
+<img src="https://raw.githubusercontent.com/sstadelman/sstadelman.github.io/master/media/blog-images/cocoacontrols-jasidepanels.png" width=900>
+
+The pod info is in the middle of the page:  copy the `pod 'JASidePanels', '~>1.3.2'` text, and paste into your podfile (below `pod 'NativeSDK'`...).  From the command line, run `pod update`.  The JASidePanels pod will be added to your workspace!
+
+To remove a pod, just delete that line from your Podfile, and run `pod update`.
