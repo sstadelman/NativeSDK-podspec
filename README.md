@@ -3,7 +3,7 @@
 Oh snap! This is awesome.  
 
 ##Use CocoaPods
-Those of you who know me, know that I'm a big fan of the CocoaPods tool and community, for discovering new open-source components for iOS development, and for library/dependency management.
+Those of you who know me, know that I'm a big fan of the CocoaPods tool and community for discovering new open-source components for iOS development and library/dependency management.
 
 I've been pushing for broader adoption in the SAP community, but have been somewhat stiemied, due to the fact that our iOS SDK isn't distributed via github.com, or an endpoint accessible to the command-line tools.  I've been hosting a copy of the SDK on our internal github, and had a blog post queued up describing how to do the same in your environment, with a podspec you could modify to link to your repo.
 
