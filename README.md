@@ -10,9 +10,11 @@ I've been pushing for broader adoption in the SAP community, but have been somew
 All that can be thrown out.  
 
 ##Seriously, right now.
-I've been hammering on this problem, as I've been trying to submit a public podspec for my STSOData framework.  I ran into this [blog by the team at Gaslight](https://teamgaslight.com/blog/using-local-libraries-with-cocoapods).  It didn't solve the problem I was initially looking at, but I came back to it, and found this:
+I was trying to work out how to submit a public podspec for my STSOData framework, which depends on the SAP Mobile SDK, and I ran into this [blog by the team at Gaslight](https://teamgaslight.com/blog/using-local-libraries-with-cocoapods).  It didn't solve the problem I was initially looking at, but I came back to it a few days later, and found this:
 
 **You can just copy this `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and cocoapods will read from your local installation.**
+
+Ah.  Yes.
 
 ##Try it.  Now.
 
