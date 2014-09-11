@@ -8,20 +8,14 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "NativeSDK"
-  s.version      = "3.5.0"
+  s.version      = "3.5.0-SP01"
   s.summary      = "Native OData Framework"
 
   s.description  = <<-DESC
-                   SAP Native OData Framework
+                   Native SDK component, of the SAP Mobile SDK, Version 3.0 Service Pack 1.  
                    DESC
-  
-  s.author       = { "Stan Stadelman" => "i826181@sap.com" }
-  
-  # s.source       = { :git => "https://github.wdf.sap.corp/i826181/odata-sdk-ios.git", :tag => "3.5.0-GA"}
-
-  s.homepage    = "https://github.wdf.sap.corp/i826181"
+    
   s.license     = { :type => 'SAP Product -- download externally through Service Marketplace', :file => "LICENSE"}
   s.platform     = :ios, '7.0'
 
@@ -29,16 +23,12 @@ Pod::Spec.new do |s|
 
   s.library      = 'stdc++.6.0.9', 'z', 'c++'
   s.framework   = 'CoreFoundation', 'Security', 'CFNetwork', 'MobileCoreServices', 'SystemConfiguration', 'MessageUI', 'CoreData'
-  # s.source_files = 'iOS/includes/public/**/*.{h,m}'
   s.source_files = "MAFReuse/iOS/includes/public/MAFUIComponents/*.h", "MAFReuse/iOS/includes/public/MAFLogViewer/*.h", "ODataFramework/iOS/includes/public/**/*.h"
 
   s.resources = 'MAFReuse/iOS/includes/bundles/MAFUIComponents.bundle', 'ODataFramework/iOS/includes/bundles/*.bundle', 'ODataFramework/iOS/includes/bundles/*.bundle', 'ODataFramework/iOS/includes/bundles/MobilePlace.bundle/Base.lproj/MobilePlace_iPhone.storyboard'
 
-
-
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+
 
 end
