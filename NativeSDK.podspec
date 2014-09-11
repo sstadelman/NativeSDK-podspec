@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "NativeSDK"
-  s.version      = "3.5.0-SP01"
+  s.version      = "3.0.5-SP01"
   s.summary      = "Native OData Framework"
 
   s.description  = <<-DESC
-                   Native SDK component, of the SAP Mobile SDK, Version 3.0 Service Pack 1.  
+                   Native SDK component, of the SAP Mobile SDK, Version 3.0 Service Pack 5, Patch Level 01.  
                    DESC
     
   s.license     = { :type => 'SAP Product -- download externally through Service Marketplace', :file => "LICENSE"}
