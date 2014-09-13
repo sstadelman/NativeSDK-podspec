@@ -5,7 +5,7 @@ Oh snap! This is awesome.
 ##Use CocoaPods
 Those of you who know me, know that I'm a big fan of the CocoaPods tool and community for discovering new open-source components for iOS development and library/dependency management.
 
-I've been pushing for broader adoption in the SAP community, but have been somewhat stiemied, due to the fact that our iOS SDK isn't distributed via github.com, or an endpoint accessible to the command-line tools.  I've been hosting a copy of the SDK on our internal github, and had a blog post queued up describing how to do the same in your environment, with a podspec you could modify to link to your repo.
+I've been pushing for broader adoption in the SAP community, but have been somewhat stiemied, due to the fact that our iOS SDK isn't distributed via github.com, or an endpoint accessible to the command-line tools.  I've been hosting a copy of the SDK on our internal github, and had a blog post queued up describing how to do the same in your environment, with a podspec you could modify to link to your repo.  But it was just a couple too many steps... I wasn't optimistic about the adoption.
 
 All that can be thrown out.  
 
@@ -15,6 +15,9 @@ I was trying to work out how to submit a public podspec for my STSOData framewor
 **You can just copy this [`NativeSDK.podspec`](https://github.com/sstadelman/NativeSDK-podspec/releases/tag/3.0-SP05) document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and CocoaPods will read from your local installation.**
 
 Ah.  Yes.
+
+##Check it out
+<iframe width="854" height="510" src="//www.youtube.com/embed/sI4nDiSX9Gc" frameborder="0" allowfullscreen></iframe>
 
 ##Try it.  Now.
 
