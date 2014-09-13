@@ -12,7 +12,7 @@ All that can be thrown out.
 ##Seriously, right now.
 I was trying to work out how to submit a public podspec for my STSOData framework, which depends on the SAP Mobile SDK, and I ran into this [blog by the team at Gaslight](https://teamgaslight.com/blog/using-local-libraries-with-cocoapods).  It didn't solve the problem I was initially looking at, but I came back to it a few days later, and found this:
 
-**You can just copy this [`NativeSDK.podspec`](https://github.com/sstadelman/NativeSDK-podspec/releases/tag/3.0-SP05) document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and CocoaPods will read from your local installation.**
+**You can just copy [this](https://github.com/sstadelman/NativeSDK-podspec) `NativeSDK.podspec` document into the NativeSDK folder of your installation directory, add this line to your project's Podfile:  `pod 'NativeSDK', :path => "~/SAP/MobileSDK3/NativeSDK/"`, and CocoaPods will read from your local installation.**
 
 Ah.  Yes.
 
@@ -21,7 +21,7 @@ Ah.  Yes.
 
 ##Try it.  Now.
 
-1.  Copy the `NativeSDK.podspec` file into the **/NativeSDK** directory in your Mobile SDK 3.0 SP05 installation.
+1.  Copy the [`NativeSDK.podspec`](https://github.com/sstadelman/NativeSDK-podspec) file into the **/NativeSDK** directory in your Mobile SDK 3.0 SP05 installation.
 2.  Create a new iOS project in xCode
 3.  Navigate to the project directory in Terminal, and run `pod init`
 4.  Copy this text into the generated Podfile:
